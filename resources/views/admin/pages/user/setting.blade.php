@@ -4,16 +4,16 @@
 <h1>User</h1>
 <hr>
 
-@if(session('result') == 'succes')
-<div class="alert alert-succes alert-dismissiable fabe show">
-	<strong>Updated !</strong> Berhasil diupdate
+@if(session('result') == 'success')
+<div class="alert alert-success alert-dismissiable fade show">
+	<strong>Updated !</strong> Berhasil diupdate.
 	<button type="button" class="close" data-dismiss="alert">
 		&times;
 	</button>
 </div>
 @elseif(session('result') == 'fail')
-<div class="alert alert-danger alert-dismissiable fabe show">
-	<strong>Failed !</strong> Gagal diupdate
+<div class="alert alert-danger alert-dismissiable fade show">
+	<strong>Failed !</strong> Gagal diupdate.
 	<button type="button" class="close" data-dismiss="alert">
 		&times;
 	</button>

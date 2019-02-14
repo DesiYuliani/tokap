@@ -40,7 +40,7 @@ class UserSettingController extends Controller
         $result = User::where('id',$id)->update($field);
 
     	if($result){
-            return back()->with('result','succes');
+            return back()->with('result','success');
         } else {
             return back()->with('result', 'fail');
         }
