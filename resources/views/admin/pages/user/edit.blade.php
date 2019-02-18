@@ -84,7 +84,7 @@
 							<div class="invalid-feedback">{{ $errors->first('akses') }}</div>
 							@endif
 					</div><!-- End Form Group-->
-
+ 
 				</div><!-- End Card Body-->
 
 				<div class="card-footer">
