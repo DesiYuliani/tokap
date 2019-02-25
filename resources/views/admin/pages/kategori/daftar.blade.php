@@ -5,7 +5,7 @@
 <hr>
 <div class="row">
 	<div class="col-md-6 mb-3">
-		<a href="#" class="btn btn-primary">[+] Tambah</a>
+		<a href="{{ route('admin.kategori.add') }}" class="btn btn-primary">[+] Tambah</a>
 	</div>
 
 	<div class="col-md-6 mb-3">
@@ -34,7 +34,7 @@
 	<tr>
 		<td>{{ $dt->nama_kategori }}</td>
 		<td>
-			<a href="#" class="btn btn-success btn-sm">
+			<a href="{{ route('admin.kategori.add') }}" class="btn btn-success btn-sm">
 			<i class="fa fa-w fa-edit"></i>
 		</a>
 		<button type="button" class="btn btn-danger btn-sm">
